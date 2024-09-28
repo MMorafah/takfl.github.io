@@ -186,6 +186,21 @@ body {
 .icon-logo {
   width: 50px; /* Adjust the size as needed */
   height: auto;
-  margin: 0 10px; /* Adjust spacing between icons */
+  margin: 5 5px; /* Adjust spacing between icons */
   vertical-align: middle;
+}
+
+/* Style for title and NeurIPS logo alignment */
+.title-wrapper {
+  display: flex; /* Use flexbox to align title and logo */
+  align-items: center; /* Vertically center the logo and title */
+  justify-content: center; /* Horizontally center the content */
+  gap: 10px; /* Adds space between the logo and the title */
+  margin-bottom: 20px; /* Adds space below the title and logo */
+}
+
+/* NeurIPS logo specific styling */
+.neurips-logo {
+  width: 50px; /* Adjust the size of the NeurIPS logo */
+  height: auto; /* Maintain aspect ratio */
 }
