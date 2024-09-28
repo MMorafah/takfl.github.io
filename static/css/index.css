@@ -176,6 +176,13 @@ body {
   margin: 0 auto 40px auto; /* Center the caption and add more margin below */
 }
 
+.icons-row {
+  display: flex; /* Use flexbox to align icons in a row */
+  justify-content: center; /* Center icons horizontally */
+  align-items: center; /* Center icons vertically */
+  margin-top: 20px; /* Add some spacing above the icons */
+}
+
 .icon-logo {
   width: 50px; /* Adjust the size as needed */
   height: auto;
