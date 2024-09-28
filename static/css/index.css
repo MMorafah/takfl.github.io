@@ -164,14 +164,14 @@ body {
 }
 
 .teaser-caption {
-  font-size: 1.1em; /* Slightly larger text for caption */
-  color: #555; /* Medium text color */
-  line-height: 1.6; /* Better line spacing */
-  background-color: #f4f4f4; /* Light background for caption */
-  padding: 15px; /* Add padding around the text */
+  font-size: 1.5em; /* Larger font size for the caption */
+  color: #2c3e50; /* Change text color to a darker blue */
+  line-height: 1.8; /* Better line spacing */
+  background-color: #ecf0f1; /* Light blue-gray background */
+  padding: 20px; /* Add more padding around the text */
   border-radius: 8px; /* Rounded corners */
-  border: 1px solid #ddd; /* Light border around caption */
+  border: 1px solid #bdc3c7; /* Light border around caption */
   display: inline-block; /* Make the caption inline with the image */
   max-width: 800px; /* Limit the width of the caption */
-  margin: 0 auto; /* Center the caption */
+  margin: 0 auto 40px auto; /* Center the caption and add more margin below */
 }
