@@ -203,4 +203,5 @@ body {
 .neurips-logo {
   width: 50px; /* Adjust the size of the NeurIPS logo */
   height: auto; /* Maintain aspect ratio */
+  margin: 3 3px;
 }
