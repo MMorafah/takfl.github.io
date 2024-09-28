@@ -175,3 +175,10 @@ body {
   max-width: 800px; /* Limit the width of the caption */
   margin: 0 auto 40px auto; /* Center the caption and add more margin below */
 }
+
+.icon-logo {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin: 0 10px; /* Adjust spacing between icons */
+  vertical-align: middle;
+}
