@@ -135,8 +135,8 @@ body {
 
 .highlight-neurips {
     color: #e74c3c; /* Attention-catching color */
-    font-weight: 900; /* Extra bold text */
-    font-size: 1.5em; /* Larger font size */
+    font-weight: 1100; /* Extra bold text */
+    font-size: 1.6em; /* Larger font size */
     margin-top: 10px; /* Space above */
     margin-bottom: 10px; /* Space below */
     display: inline-block; /* Keep it in the same line */
