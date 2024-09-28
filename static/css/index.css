@@ -186,7 +186,7 @@ body {
 .icon-logo {
   width: 50px; /* Adjust the size as needed */
   height: auto;
-  margin: 5 5px; /* Adjust spacing between icons */
+  margin: 2 2px; /* Adjust spacing between icons */
   vertical-align: middle;
 }
 
@@ -203,5 +203,5 @@ body {
 .neurips-logo {
   width: 50px; /* Adjust the size of the NeurIPS logo */
   height: auto; /* Maintain aspect ratio */
-  margin: 3 3px;
+  margin: 0 0px;
 }
