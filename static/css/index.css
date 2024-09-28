@@ -133,5 +133,12 @@ body {
   font-size: smaller;
 }
 
+.highlight-neurips {
+    color: #e74c3c; /* Choose a nice, attention-catching color like red */
+    font-weight: bold; /* Make it bold for emphasis */
+    font-size: 1.2em; /* Slightly larger font size */
+    margin-top: 10px; /* Add some space above */
+    display: inline-block; /* Keep it in the same line */
+}
 
 
