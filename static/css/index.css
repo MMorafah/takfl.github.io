@@ -174,7 +174,7 @@ body {
   border: 1px solid #bdc3c7; /* Light border around caption */
   display: inline-block; /* Make the caption inline with the image */
   max-width: 100%; /* Limit the width of the caption */
-  margin: 0 auto 10px auto; /* Center the caption and add more margin below */
+  margin: 0 auto 0px auto; /* Center the caption and add more margin below */
 }
 
 .icons-row {
