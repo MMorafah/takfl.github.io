@@ -209,17 +209,17 @@
 \circled{1} Existing methods often disregard the individual strengths and information quality of each device prototype's ensembles and integrate their logits into a single distillation target. \emph{This approach dilutes the richer, more informative logits from larger, more capable devices with less informative logits from smaller, less capable ones.}
 \circled{2} Additionally, these methods employ this single integrated distillation target to transfer knowledge across all different size student models. \emph{This one-size-fits-all approach fails to provide customized knowledge integration based on the unique learning capacities of each student and the specific helpfulness of each device prototype’s ensembles.
 
-      <p><strong>Knowledge distillation (KD)</strong> in device-heterogeneous FL facilitates knowledge transfer by using locally updated client models from different device prototypes—collectively termed as <em>ensembles</em>—as teachers to distill their knowledge into each device prototype's server student model, using an unlabeled public dataset.</p>
+      <strong>Knowledge distillation (KD)</strong> in device-heterogeneous FL facilitates knowledge transfer by using locally updated client models from different device prototypes—collectively termed as <em>ensembles</em>—as teachers to distill their knowledge into each device prototype's server student model, using an unlabeled public dataset.
 
-      <p>While existing works primarily focus on same-size devices with similar capabilities, they often overlook the significant variation in device prototypes, ranging from small IoT devices to large workstations.</p>
+      While existing works primarily focus on same-size devices with similar capabilities, they often overlook the significant variation in device prototypes, ranging from small IoT devices to large workstations.
       
-      <p>As shown in this figure, different-sized ensembles' logits are being averaged and used as the target distillation to transfer knowledge to each server-side student model.</p>
+      As shown in this figure, different-sized ensembles' logits are being averaged and used as the target distillation to transfer knowledge to each server-side student model.
       
-      <p>Unfortunately, existing methods struggle to establish effective knowledge transfer in these challenging, real-world device-heterogeneous settings, primarily due to two reasons:</p>
+      Unfortunately, existing methods struggle to establish effective knowledge transfer in these challenging, real-world device-heterogeneous settings, primarily due to two reasons:
       
-      <p><span style="border:1px solid black; border-radius:50%; padding:5px;">1</span> Existing methods often disregard the individual strengths and information quality of each device prototype's ensembles and integrate their logits into a single distillation target. This approach dilutes the richer, more informative logits from larger, more capable devices with less informative logits from smaller, less capable ones.</p>
+      <span style="border:1px solid black; border-radius:50%; padding:5px;">1</span> Existing methods often disregard the individual strengths and information quality of each device prototype's ensembles and integrate their logits into a single distillation target. This approach dilutes the richer, more informative logits from larger, more capable devices with less informative logits from smaller, less capable ones.
       
-      <p><span style="border:1px solid black; border-radius:50%; padding:5px;">2</span> Additionally, these methods employ this single integrated distillation target to transfer knowledge across all different-size student models. This one-size-fits-all approach fails to provide customized knowledge integration based on the unique learning capacities of each student and the specific helpfulness of each device prototype’s ensembles.</p>
+      <span style="border:1px solid black; border-radius:50%; padding:5px;">2</span> Additionally, these methods employ this single integrated distillation target to transfer knowledge across all different-size student models. This one-size-fits-all approach fails to provide customized knowledge integration based on the unique learning capacities of each student and the specific helpfulness of each device prototype’s ensembles.
 
 </section>
 <!-- End of Device Heterogeneous FL Section -->
