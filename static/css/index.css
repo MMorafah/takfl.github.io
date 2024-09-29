@@ -151,7 +151,8 @@ body {
 .overview-title {
   font-size: 2em; /* Increase font size for the title */
   font-weight: bold; /* Make the title bold */
-  margin-bottom: 20px; /* Add some space below the title */
+  margin-bottom: 10px; /* Add some space below the title */
+  margin-top: 10px;
   color: #333; /* Darker text color */
 }
 
@@ -160,20 +161,20 @@ body {
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Slightly rounded corners */
   border: 1px solid #ddd; /* Light border around image */
-  margin-bottom: 20px; /* Space below the image */
+  margin-bottom: 15px; /* Space below the image */
 }
 
 .teaser-caption {
-  font-size: 1.5em; /* Larger font size for the caption */
+  font-size: 1em; /* Larger font size for the caption */
   color: #2c3e50; /* Change text color to a darker blue */
-  line-height: 1.8; /* Better line spacing */
+  line-height: 1.1; /* Better line spacing */
   background-color: #ecf0f1; /* Light blue-gray background */
-  padding: 20px; /* Add more padding around the text */
+  padding: 10px; /* Add more padding around the text */
   border-radius: 8px; /* Rounded corners */
   border: 1px solid #bdc3c7; /* Light border around caption */
   display: inline-block; /* Make the caption inline with the image */
-  max-width: 800px; /* Limit the width of the caption */
-  margin: 0 auto 40px auto; /* Center the caption and add more margin below */
+  max-width: 100%; /* Limit the width of the caption */
+  margin: 0 auto 10px auto; /* Center the caption and add more margin below */
 }
 
 .icons-row {
