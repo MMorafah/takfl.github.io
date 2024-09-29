@@ -144,7 +144,7 @@ body {
 
 /* CSS for the Overview Section */
 .overview-section {
-  padding: 50px 0; /* Add padding to the section */
+  padding: 10px 0; /* Add padding to the section */
   background-color: #f9f9f9; /* Light background color */
 }
 
@@ -152,7 +152,7 @@ body {
   font-size: 2em; /* Increase font size for the title */
   font-weight: bold; /* Make the title bold */
   margin-bottom: 10px; /* Add some space below the title */
-  margin-top: 10px;
+  margin-top: 5px;
   color: #333; /* Darker text color */
 }
 
@@ -161,7 +161,7 @@ body {
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Slightly rounded corners */
   border: 1px solid #ddd; /* Light border around image */
-  margin-bottom: 15px; /* Space below the image */
+  margin-bottom: 10px; /* Space below the image */
 }
 
 .teaser-caption {
