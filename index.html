@@ -214,39 +214,77 @@
 
 <!-- Overview Section with Image Carousel -->
 <section class="overview-section">
-  <div class="container has-text-centered">
+  <div class="container text-center">
     <!-- Title -->
     <h1 class="title overview-title">Overview</h1>
 
     <!-- Image Carousel -->
-    <div id="results-carousel" class="carousel results-carousel" style="overflow: hidden; width: 100%;" data-interval="false"> <!-- Disabling auto-slide -->
-
-      <!-- First Image -->
-      <div class="item" style="position: relative; width: 100%;">
-        <img src="static/images/figure_main.jpg" alt="Overview Image 1" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;">
-        <!-- Caption -->
-        <p class="teaser-caption">
-          This image showcases the key steps in our process: reconstruction, recognition, and registration. 
-          The pipeline starts with the query image, followed by extracting sparse keypoints, recognizing landmarks, 
-          and registering them in a 3D space.
-        </p>
+    <div 
+      id="results-carousel" 
+      class="carousel slide results-carousel" 
+      data-bs-ride="carousel" 
+      data-bs-interval="false"
+    >
+      <div class="carousel-inner">
+        <!-- First Image -->
+        <div class="carousel-item active" style="position: relative; width: 100%;">
+          <img 
+            src="static/images/figure_main.jpg" 
+            class="d-block w-100" 
+            alt="Overview Image 1" 
+            style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;"
+          >
+          <!-- Caption -->
+          <div class="carousel-caption d-none d-md-block">
+            <p class="teaser-caption">
+              This image showcases the key steps in our process: reconstruction, recognition, and registration. 
+              The pipeline starts with the query image, followed by extracting sparse keypoints, recognizing landmarks, 
+              and registering them in a 3D space.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Second Image -->
+        <div class="carousel-item" style="position: relative; width: 100%;">
+          <img 
+            src="static/images/fl_task_vector.jpg" 
+            class="d-block w-100" 
+            alt="Overview Image 2" 
+            style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;"
+          >
+          <!-- Caption -->
+          <div class="carousel-caption d-none d-md-block">
+            <p class="teaser-caption">
+              This second image depicts a detailed FL task vector that highlights various stages of federated learning, 
+              from task formulation to optimization.
+            </p>
+          </div>
+        </div>
       </div>
-      
-      <!-- Second Image -->
-      <div class="item" style="position: relative; width: 100%;">
-        <img src="static/images/fl_task_vector.jpg" alt="Overview Image 2" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;">
-        <!-- Caption -->
-        <p class="teaser-caption">
-          This second image depicts a detailed FL task vector that highlights various stages of federated learning, 
-          from task formulation to optimization.
-        </p>
-      </div>
 
+      <!-- Carousel Controls -->
+      <button 
+        class="carousel-control-prev" 
+        type="button" 
+        data-bs-target="#results-carousel" 
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button 
+        class="carousel-control-next" 
+        type="button" 
+        data-bs-target="#results-carousel" 
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
 </section>
 <!-- End of Overview Section with Image Carousel -->
-
 
 
 <!-- Image carousel -->
