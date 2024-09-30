@@ -212,33 +212,42 @@
 </section>
 <!-- End of Device Heterogeneous FL Section -->
 
-<!-- Overview Section -->
+<!-- Overview Section with Image Carousel -->
 <section class="overview-section">
   <div class="container has-text-centered">
     <!-- Title -->
     <h1 class="title overview-title">Overview</h1>
 
-    <!-- Teaser Images -->
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <!-- Image Carousel -->
+    <div id="results-carousel" class="carousel results-carousel">
+      
       <!-- First Image -->
-      <div class="teaser-image">
-        <img src="static/images/fl_task_vector.jpg" alt="Overview Image" style="max-width: 1000%; height: auto; border-radius: 8px; border: 1px solid #ddd;">
+      <div class="item">
+        <div class="teaser-image">
+          <img src="static/images/figure_main.jpg" alt="Overview Image 1" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;">
+        </div>
+        <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5; background-color: #ecf0f1; padding: 10px; border-radius: 8px; border: 1px solid #bdc3c7; text-align: left; margin: 0 auto; max-width: 100%; margin-top: 10px;">
+          This image showcases the key steps in our process: reconstruction, recognition, and registration. 
+          The pipeline starts with the query image, followed by extracting sparse keypoints, recognizing landmarks, 
+          and registering them in a 3D space.
+        </p>
       </div>
+      
       <!-- Second Image -->
-      <div class="teaser-image">
-        <img src="static/images/figure_main.jpg" alt="Second Image" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd;">
+      <div class="item">
+        <div class="teaser-image">
+          <img src="static/images/fl_task_vector.jpg" alt="Overview Image 2" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;">
+        </div>
+        <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5; background-color: #ecf0f1; padding: 10px; border-radius: 8px; border: 1px solid #bdc3c7; text-align: left; margin: 0 auto; max-width: 100%; margin-top: 10px;">
+          This second image depicts a detailed FL task vector that highlights various stages of federated learning, 
+          from task formulation to optimization.
+        </p>
       </div>
-    </div>
 
-    <!-- Image Caption/Explanation -->
-    <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5; background-color: #ecf0f1; padding: 10px; border-radius: 8px; border: 1px solid #bdc3c7; text-align: left; margin: 0 auto; max-width: 100%; margin-top: 10px;">
-      These images showcase the key steps in our process: reconstruction, recognition, and registration. 
-      The pipeline starts with the query image, followed by extracting sparse keypoints, recognizing landmarks, 
-      and registering them in a 3D space.
-    </p>
+    </div>
   </div>
 </section>
-<!-- End of Overview Section -->
+<!-- End of Overview Section with Image Carousel -->
 
   
 <!-- Teaser video-->
