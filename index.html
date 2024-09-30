@@ -219,14 +219,14 @@
     <h1 class="title overview-title">Overview</h1>
 
     <!-- Image Carousel -->
-    <div id="results-carousel" class="carousel results-carousel">
-      
+    <div id="results-carousel" class="carousel results-carousel" style="overflow: hidden; width: 100%;">
+
       <!-- First Image -->
-      <div class="item">
+      <div class="item" style="position: relative; width: 100%;">
         <div class="teaser-image">
           <img src="static/images/figure_main.jpg" alt="Overview Image 1" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;">
         </div>
-        <div class="caption-container" style="text-align: left; padding: 10px; background-color: #f8f8f8; border: 1px solid #ccc; border-radius: 8px; margin-top: 10px;">
+        <div class="caption-container" style="text-align: left; padding: 10px; background-color: #f8f8f8; border: 1px solid #ccc; border-radius: 8px; margin-top: 10px; width: 100%;">
           <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5;">
             This image showcases the key steps in our process: reconstruction, recognition, and registration. 
             The pipeline starts with the query image, followed by extracting sparse keypoints, recognizing landmarks, 
@@ -236,11 +236,11 @@
       </div>
       
       <!-- Second Image -->
-      <div class="item">
+      <div class="item" style="position: relative; width: 100%;">
         <div class="teaser-image">
-          <img src="static/images/fl_task_vector.jpg" alt="Overview Image 2" style="max-width: 50%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;">
+          <img src="static/images/fl_task_vector.jpg" alt="Overview Image 2" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;">
         </div>
-        <div class="caption-container" style="text-align: left; padding: 10px; background-color: #f8f8f8; border: 1px solid #ccc; border-radius: 8px; margin-top: 10px;">
+        <div class="caption-container" style="text-align: left; padding: 10px; background-color: #f8f8f8; border: 1px solid #ccc; border-radius: 8px; margin-top: 10px; width: 100%;">
           <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5;">
             This second image depicts a detailed FL task vector that highlights various stages of federated learning, 
             from task formulation to optimization.
