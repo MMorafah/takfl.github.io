@@ -230,7 +230,7 @@
 <section class="overview-section" style="padding: 10px 0; background-color: #ffebee;">
   <div class="container has-text-centered">
     <!-- Title -->
-    <h1 class="title overview-title" style="color: #333;">Overview</h1>
+    <h1 class="title overview-title" style="color: #333;">TAKFL Overview</h1>
 
     <!-- Teaser Image -->
     <div class="teaser-image">
@@ -239,9 +239,7 @@
 
     <!-- Image Caption/Explanation -->
     <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5; background-color: #ecf0f1; padding: 10px; border-radius: 8px; border: 1px solid #bdc3c7; text-align: left; margin: 0 auto; max-width: 100%; margin-top: 10px;">
-      This image showcases the key steps in our process: reconstruction, recognition, and registration. 
-      The pipeline starts with the query image, followed by extracting sparse keypoints, recognizing landmarks, 
-      and registering them in a 3D space.
+      This figure provides an overview of the TAKFL approach, which transfers the knowledge of different-sized device prototypes' ensembles into each server student model. The scenario consists of three device prototypes: Small (S), Medium (M), and Large (L). TAKFL treats knowledge transfer from each prototype’s ensemble as a separate task and distills them independently. This ensures that the unique knowledge and contributions of each prototype’s ensembles are effectively distilled, avoiding dilution, information loss, and interference from other prototypes’ ensembles. Additionally, a KD-based self-regularization technique is introduced to guide the student through the noisy and unsupervised ensemble distillation process. Finally, the heterogeneously distilled knowledge is strategically integrated using an adaptive task arithmetic operation, allowing for customized knowledge integration based on each student prototype’s specific needs.
     </p>
   </div>
 </section>
