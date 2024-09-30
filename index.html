@@ -179,10 +179,8 @@
       to large-scale systems like workstations. Each of these devices has unique, unhashable neural network architectures designed to 
       fit their specific hardware, software configurations, and machine learning tasks. The capabilities of these devices vary significantly,
       with smaller devices (e.g., IoT) having smaller models and smaller datasets, while larger devices (e.g., workstations) 
-      have larger models and larger datasets. <br><br>
-      <span style="display: inline-block; background-color: #f9f7d9; color: black; padding: 3px 8px; border-radius: 50%; border: 1px solid black; font-weight: bold; font-size: 16px;">1</span>
+      have larger models and larger datasets.
       Additionally, these methods employ this single integrated distillation target to transfer knowledge across all different-size student models.
-      <br><br>
       These diverse device prototypes with heterogeneous model architectures participate in FL to enhance their global model performance through mutual knowledge sharing.
       In this figure, we have depicted a scenario of three different devices prototypes including IoTs, smartphones, and workstations.
     </p>
@@ -203,13 +201,13 @@
     </div>
 
     <!-- Image Caption/Explanation -->
-    <p class="teaser-caption">
+    <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5; background-color: #ecf0f1; padding: 10px; border-radius: 8px; border: 1px solid #bdc3c7; text-align: left; margin: 0 auto; max-width: 100%; margin-top: 10px;">
       <strong>Knowledge distillation (KD)</strong> in device-heterogeneous FL facilitates knowledge transfer by using locally updated client models from different device prototypes—collectively termed as <em>ensembles</em>—as teachers to distill their knowledge into each device prototype's server student model, using an unlabeled public dataset.
       While existing works primarily focus on same-size devices with similar capabilities, they often overlook the significant variation in device prototypes, ranging from small IoT devices to large workstations.
       As shown in this figure, different-sized ensembles' logits are being averaged and used as the target distillation to transfer knowledge to each server-side student model.
-      Unfortunately, existing methods struggle to establish effective knowledge transfer in these challenging, real-world device-heterogeneous settings, primarily due to two reasons:
-      <span style="border:1px solid black; border-radius:60%; padding:-1px;">1</span> Existing methods often disregard the individual strengths and information quality of each device prototype's ensembles and integrate their logits into a single distillation target. This approach dilutes the richer, more informative logits from larger, more capable devices with less informative logits from smaller, less capable ones.
-      <span style="border:1px solid black; border-radius:60%; padding:-1px;">2</span> Additionally, these methods employ this single integrated distillation target to transfer knowledge across all different-size student models. This one-size-fits-all approach fails to provide customized knowledge integration based on the unique learning capacities of each student and the specific helpfulness of each device prototype’s ensembles.
+      Unfortunately, existing methods struggle to establish effective knowledge transfer in these challenging, real-world device-heterogeneous settings, primarily due to two reasons: <br>
+      <span style="display: inline-block; background-color: #f9f7d9; color: black; padding: 3px 8px; border-radius: 50%; border: 1px solid black; font-weight: bold; font-size: 16px;">1</span> Existing methods often disregard the individual strengths and information quality of each device prototype's ensembles and integrate their logits into a single distillation target. This approach dilutes the richer, more informative logits from larger, more capable devices with less informative logits from smaller, less capable ones. <br>
+      <span style="display: inline-block; background-color: #f9f7d9; color: black; padding: 3px 8px; border-radius: 50%; border: 1px solid black; font-weight: bold; font-size: 16px;">1</span> Additionally, these methods employ this single integrated distillation target to transfer knowledge across all different-size student models. This one-size-fits-all approach fails to provide customized knowledge integration based on the unique learning capacities of each student and the specific helpfulness of each device prototype’s ensembles.
 
 </section>
 <!-- End of Device Heterogeneous FL Section -->
@@ -227,7 +225,7 @@
     </div>
 
     <!-- Image Caption/Explanation -->
-    <p class="teaser-caption">
+    <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5; background-color: #ecf0f1; padding: 10px; border-radius: 8px; border: 1px solid #bdc3c7; text-align: left; margin: 0 auto; max-width: 100%; margin-top: 10px;">
       This image showcases the key steps in our process: reconstruction, recognition, and registration. 
       The pipeline starts with the query image, followed by extracting sparse keypoints, recognizing landmarks, 
       and registering them in a 3D space.
