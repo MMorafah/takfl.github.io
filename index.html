@@ -163,27 +163,34 @@
 
 
 <!-- Device Heterogeneous FL Section -->
-<section class="overview-section">
+<section class="overview-section" style="padding: 10px 0; background-color: #f0f4f8;"> <!-- Light background color applied here -->
   <div class="container has-text-centered">
     <!-- Title -->
-    <h1 class="title overview-title">Device Heterogeneous FL</h1>
+    <h1 class="title overview-title" style="color: #333;">Device Heterogeneous FL</h1>
 
     <!-- Teaser Image -->
     <div class="teaser-image">
-      <img src="static/images/problem.jpg" alt="Overview Image">
+      <img src="static/images/problem.jpg" alt="Overview Image" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 10px;">
     </div>
 
     <!-- Image Caption/Explanation -->
-    <p class="teaser-caption">
+    <p class="teaser-caption" style="font-size: 1em; color: #2c3e50; line-height: 1.5; background-color: #ecf0f1; padding: 10px; border-radius: 8px; border: 1px solid #bdc3c7; text-align: left; margin: 0 auto; max-width: 100%; margin-top: 10px;">
       In practice, there is a wide range of device prototypes, from small devices such as IoT devices, and medium-sized ones like smartphones, 
       to large-scale systems like workstations. Each of these devices has unique, unhashable neural network architectures designed to 
       fit their specific hardware, software configurations, and machine learning tasks. The capabilities of these devices vary significantly,
       with smaller devices (e.g., IoT) having smaller models and smaller datasets, while larger devices (e.g., workstations) 
-      have larger models and larger datasets.
+      have larger models and larger datasets. <br><br>
+      
+      <span style="display: inline-block; background-color: #3498db; color: white; padding: 5px 10px; border-radius: 50%; margin-right: 5px;">①</span>
+      Additionally, these methods employ this single integrated distillation target to transfer knowledge across all different-size student models.
+      <br><br>
       These diverse device prototypes with heterogeneous model architectures participate in FL to enhance their global model performance through mutual knowledge sharing.
       In this figure, we have depicted a scenario of three different devices prototypes including IoTs, smartphones, and workstations.
+    </p>
+  </div>
 </section>
 <!-- End of Device Heterogeneous FL Section -->
+
 
 <!-- Limitations of KD-based Device Heterogeneous FL Section -->
 <section class="overview-section">
